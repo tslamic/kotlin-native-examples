@@ -1,0 +1,2 @@
+rootProject.name = 'kotlin-native-samples'
+include 'hello-world', 'hello-libcurl', 'hello-multiplatform'

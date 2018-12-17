@@ -1,0 +1,14 @@
+plugins {
+    id "org.jetbrains.kotlin.konan" version "1.3.11"
+}
+
+konanArtifacts {
+    interop "curl", {
+        defFile "libcurl.def"
+    }
+    program "libcurl", {
+        libraries {
+            artifact "curl"
+        }
+    }
+}

@@ -1,0 +1,2 @@
+headers = /usr/include/curl/curl.h
+linkerOpts = -lcurl
